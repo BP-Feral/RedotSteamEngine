@@ -1,0 +1,18 @@
+name: Setup Direct3D 12
+
+
+description: Setup Direct3D 12 for Windows builds
+
+
+runs:
+  using: "composite"
+
+  steps:
+    - name: Download Angle
+      shell: bash
+      run: |
+        curl -fLO https://github.com/godotengine/godot-nir-static/releases/download/23.1.9-1/godot-nir-static-x86_64-msvc-release.zip
+
+        unzip -d mesa_dir godot-nir-static-x86_64-msvc-release.zip
+
+        ls -l

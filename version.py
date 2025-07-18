@@ -1,0 +1,14 @@
+short_name = "redot"
+name = "Redot Engine"
+major = 4
+minor = 4
+patch = 0
+status = "alpha"
+status_version = 0
+module_config = ""
+website = "https://redotengine.org"
+docs = "latest"
+godot_major = 4
+godot_minor = 4
+godot_patch = 1
+godot_status = "stable"
