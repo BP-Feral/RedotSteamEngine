@@ -1,4 +1,12 @@
-# Redot Engine
+# RedotSteam Engine – Steam Integration Fork
+
+> 🎮 **Note**: This is a fork of the [Redot Engine](https://github.com/Redot-Engine/redot-engine) with **built-in Steamworks SDK support**.  
+>  
+> My contribution is limited to integrating Steam API support and providing a precompiled version for easier development and deployment on Steam.  
+>  
+> All core engine features and credits belong to the original [Redot Engine](https://github.com/Redot-Engine/redot-engine) team.
+
+---
 
 <p align="center">
   <a href="https://redotengine.org/">
@@ -7,9 +15,10 @@
 </p>
 
 ## 2D and 3D cross-platform game engine
+**RedotSteam Engine** is built on top of **Redot Engine** to offer support for developing Steam games.
 
-**[Redot Engine](https://redotengine.org) is a feature-packed, cross-platform
-game engine to create 2D and 3D games from a unified interface.** It provides a
+**[Redot Engine](https://redotengine.org)** is a feature-packed, cross-platform
+game engine to create 2D and 3D games from a unified interface. It provides a
 comprehensive set of common tools, so that
 users can focus on making games without having to reinvent the wheel. Games can
 be exported with one click to a number of platforms, including the major desktop
@@ -60,12 +69,13 @@ To get started contributing to the project, see the [contributing guide](CONTRIB
 This document also includes guidelines for reporting bugs.
 
 Follow [Redot on X/Twitter](https://x.com/Redot_Engine)!
+
 ## Documentation and demos
 
 The class reference is accessible from the Redot editor.
 
-## Redot Experimental
+## ReX Engine
 
 Looking to try out new features that aren't backwards compatible with Godot, or would you like to create new features for Redot Engine that can't be added here due to compatibility issues?
 
-Meet us over at [ReX](https://github.com/Redot-Experimental/ReX?tab=readme-ov-file) Where we test new ideas and improve the engine in ways not currently possible here in the core repo.
+Meet us over at the [ReX Engine Repo](https://github.com/redot-rex/rex-engine) where we aim to create a modern engine using Redot Engine as a starting point, free from Godot’s choices and shortcomings, and innovate in ways not currently possible here within Redot Engine.
